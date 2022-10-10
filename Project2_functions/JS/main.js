@@ -9,5 +9,5 @@ document.write(X);
 function myfunction() {
     var sentence = "I am learning";
     sentence += " a lot from this course!";
-    document.getElementByID("Concatenate").innerHTML = sentence;
+    document.getElementById("Concatenate").innerHTML = sentence;
 }

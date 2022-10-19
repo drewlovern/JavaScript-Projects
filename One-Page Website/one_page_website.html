@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+		<title>Drew's Drum World</title>
+		<link rel="stylesheet" type="text/css" href="./css/one_page_website.css">
+	</head>
+	<body>
+	<link rel = "stylesheet" type = "text/css" href = "CSS_1.css">
+	
+		<!-- NAV -->
+		<div>
+			<div>
+				<div class='parent'>
+				<ul>
+					<div class='child'><a href="#home" id="link"><li>HOME</li></a></div>
+					<div class='child'><a href="#classes"><li>CLASSES</li></a></div>
+					<div class='child'><a href="#contact"><li>CLASS SIGN UP</li></a></div>
+				</ul>
+			</div>
+		</div>
+		<!-- Home -->
+		<div id="home">
+			<div>
+				<div>
+					<h1>Drew's Drum World</h1>
+					<p> Your one stop shop for all things percussion</p>
+				</div>
+			</div>
+		</div>
+		<!-- End Home -->
+		
+		<!-- Gallery -->
+		<section>
+			<div id="classes">
+				<h1>Classes</h1>
+				<div>
+				
+					<!-- Photo-Container 1 -->
+					<div>
+						<div>
+							<center><img src="./images/image_1.png" alt="" width="300" height="175"></center>
+							<div>
+								<h3>Hand Percussion</h3>
+								<p>Sign up for classes today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 1 -->
+					
+					<!-- Photo-Container 2 -->
+					<div>
+						<div>
+							<center><img src="./images/image_2.png" alt="" width="300" height="175"></center>
+							<div>
+								<h3>Drum Set</h3>
+								<p>Sign up for classes today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 2 -->
+					
+					<!-- Photo-Container 3 -->
+					<div>
+						<div>
+							<center><img src="./images/image_3.png" alt="" width="300" height="175"></center>
+							<div>
+								<h3>Music Theory</h3>
+								<p>Sign up for classes today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 3 -->
+					
+					<!-- Video -->
+					
+					<center><iframe width="560" height="315" src="https://www.youtube.com/embed/SI-j7wci-Y0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+					
+					<!-- End Video -->
+					
+					
+				</div>
+			</div>
+		</section>
+			<!--End Gallery-->
+			
+			<!--RSVP-->
+			<section>
+				<div id="contact">
+					<div>
+						<h1>Class Sign Up</h1>
+						<div>
+							<h2><span>You could be dropping beats in one week!</span>
+								<br />Reserve your class today!
+							</h2>
+							<p>
+								Please provide us with your basic contact information.
+							</p>
+							<div>
+								<form action="" method="post">
+									<input class="rsvp" type="text" value="First Name">
+									<input class="rsvp" type="text" value="Last Name">
+									<input class="rsvp" type="text" value="Email Address">
+									<input class="rsvp" type="text" value="Phone Number">
+									<div class="form-spacer">
+										<label class="terms">Terms and Conditions</label>
+									</div>
+									<div>
+										<input type="submit" value="Submit">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End RSVP -->
+	
+		<!-- Images used to open the lightbox -->
+<section>
+	<div class="row">
+		<div class="column">
+			<img src="Images/image_1.png" width="300" height="175" onclick="openModal();currentSlide(1)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="Images/image_2.png" width="300" height="175" onclick="openModal();currentSlide(2)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="Images/image_3.png" width="300" height="175" onclick="openModal();currentSlide(3)" class="hover-shadow">
+		</div>
+
+	</div>
+
+		<!-- The Modal/Lightbox -->
+		<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
+
+			<div class="mySlides">
+			<div class="numbertext" >1 / 3</div>
+			<img src="Images/image_1.png" width="1200" height="700">
+			</div>
+
+			<div class="mySlides">
+			<div class="numbertext">2 / 3</div>
+			<img src="Images/image_2.png" width="1200" height="700">
+			</div>
+
+			<div class="mySlides">
+			<div class="numbertext">3 / 3</div>
+			<img src="Images/image_3.png" width="1200" height="700">
+			</div>
+
+		
+
+			<!-- Next/previous controls -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<!-- Caption text -->
+			<div class="caption-container">
+			<p id="caption"></p>
+			</div>
+
+			<!-- Thumbnail image controls -->
+			<div class="column">
+			<img class="demo" src="Images/image_1.png" width="300" height="175" onclick="currentSlide(1)" alt="Hand Percussion">
+			</div>
+
+			<div class="column">
+			<img class="demo" src="images/image_2.png" width="300" height="175" onclick="currentSlide(2)" alt="Drum Set">
+			</div>
+
+			<div class="column">
+			<img class="demo" src="Images/image_3.png" width="300" height="175" onclick="currentSlide(3)" alt="Music Theory">
+			</div>
+
+		</div>
+		</div>
+	</section>
+			<!--Foodter -->
+			<footer>
+				www.drewsdrumworld.drum &nbsp;|&nbsp; &copy; 2022
+			</footer>
+			<!--End Footer-->
+			<script src="JS/one_page_website.js"></script>
+	</body>
+
+</html>
+	

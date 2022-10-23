@@ -12,22 +12,22 @@
 
 <h2> Projects </h2>
 
-<a href=""></a>
+<a href="https://github.com/drewlovern/JavaScript-Projects/tree/main/Pizza_Project">Pizza Order Menu</a>
 <br>
 <br>
-<a href=""></a>
+<a href="https://github.com/drewlovern/JavaScript-Projects/tree/main/JavaScript%20Projects">Working Calculator</a>
 <br>
 <br>
-<a href=""></a>
+<a href="https://github.com/drewlovern/JavaScript-Projects/tree/main/TicTacToe">TicTacToe Game</a>
 
-<h3></h3>
+<h3>Pizza Order Menu</h3>
 
-<p></p>
+<p>In this project I created a menu with various topping options. It takes the input from your choices and calculates the total price.</p>
 
-<h3></h3>
+<h3>Working Calculator</h3>
 
-<p></p>
+<p>This is a basic 4 function calclulator. Users can add, subtranct, multiply and divide on a sleek web version of a calclulator.</p>
 
-<h3></h3>
+<h3>TicTacToe Game</h3>
 
-<p></p>
+<p>Here you can play the calssic tic-tac-toe game. Compete against the computer to see if you can win!</p>
